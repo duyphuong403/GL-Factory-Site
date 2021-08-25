@@ -1,0 +1,39 @@
+import React from 'react'
+import {
+  BrandName,
+  Circle, HambugerIcon,
+  HambugerIconWrapper,
+  Logo,
+  LogoWrapper,
+  SocialIcon,
+  SocialIconWrapper,
+  Wrapper
+} from './styles'
+
+export const StickyMenu = () => {
+  return (
+    <div>
+      <Wrapper fixed="top" fluid>
+        <LogoWrapper>
+          <Logo src="/g-icon.png" alt="Logo" />
+          <BrandName src="/gameloft.png" alt="gl-text" />
+        </LogoWrapper>
+        <HambugerIconWrapper>
+          <HambugerIcon name="bars" size="big" />
+        </HambugerIconWrapper>
+      </Wrapper>
+
+      <SocialIconWrapper>
+        <Circle>
+          <SocialIcon name="share alternate" size="large" />
+        </Circle>
+        <Circle>
+          <SocialIcon name="mail outline" size="large" />
+        </Circle>
+        <Circle>
+          <SocialIcon name="headphones" size="large" />
+        </Circle>
+      </SocialIconWrapper>
+    </div>
+  )
+}
