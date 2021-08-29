@@ -16,8 +16,8 @@ export const StickyMenu = () => {
     <div>
       <Wrapper fixed="top" fluid>
         <LogoWrapper>
-          <Logo src="/g-icon.png" alt="Logo" />
-          <BrandName src="/gameloft.png" alt="gl-text" />
+          <Logo src="images/g-icon.png" alt="Logo" />
+          <BrandName src="images/gameloft.png" alt="gl-text" />
         </LogoWrapper>
         <HambugerIconWrapper>
           <HambugerIcon src="images/HambugerIcon.png" alt="Hambuger Icon" />

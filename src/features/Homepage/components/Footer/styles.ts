@@ -8,11 +8,14 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  max-height: 1080px;
   min-height: 980px;
 
   @media only screen and (max-width: 600px) {
     justify-content: flex-start;
+  }
+
+  @media only screen and (max-height: 960px) {
+    justify-content: center;
   }
 `
 
