@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
   }
 
   @media only screen and (max-height: 960px) {
-    justify-content: center;
+    justify-content: flex-start;
   }
 `
 
