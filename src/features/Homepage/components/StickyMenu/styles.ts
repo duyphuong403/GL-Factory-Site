@@ -4,7 +4,9 @@ import { Colors } from '../../../../utils'
 
 export const Wrapper = styled(Menu)`
   height: 76px;
-  background-color: #ffffff99 !important;
+  background-color: #A8D6FD !important;
+  display: flex;
+  justify-content: space-between;
 
   @media (max-width: 425px) {
     height: 50px;
@@ -43,25 +45,23 @@ export const BrandName = styled.img`
 `
 
 export const HambugerIconWrapper = styled.div`
-  padding-right: 64px;
+  padding-right: 3.4rem;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  -webkit-transition: color ease-in-out 0.3s;
-  -moz-transition: color ease-in-out 0.3s;
-  -o-transition: color ease-in-out 0.3s;
-  transition: color ease-in-out 0.3s;
 
   @media (max-width: 768px) {
-    padding-right: 20px;
-  }
-
-  &:hover {
-    color: ${Colors.PRIMARY_COLOR}
+    padding-right: 2rem;
   }
 `
 
-export const HambugerIcon = styled(Icon)`
+export const HambugerIcon = styled.img`
   cursor: pointer;
+  width: 60%;
+
+  @media (max-width: 768px) {
+    width: 40%;
+  }
 `
 
 export const SocialIconWrapper = styled.div`
@@ -71,7 +71,7 @@ export const SocialIconWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1;
+  z-index: 5;
 
   @media (max-width: 768px) {
     right: 27px;
@@ -105,8 +105,18 @@ export const Circle = styled.span`
       color: ${Colors.PRIMARY_COLOR};
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
 `
 
 export const SocialIcon = styled(Icon)`
+  width: 100%;
   margin: 0 !important;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 1em !important;
+  }
 `

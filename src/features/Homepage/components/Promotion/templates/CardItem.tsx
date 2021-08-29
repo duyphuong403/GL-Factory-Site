@@ -38,7 +38,7 @@ export const CardItem = () => {
             invidunt ut labore et dolore...
           </DescriptionText>
           <ReadMoreButtonWrapper>
-            read more
+            READ MORE
           </ReadMoreButtonWrapper>
         </WrapperHidden>
 

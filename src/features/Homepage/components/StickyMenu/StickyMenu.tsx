@@ -1,13 +1,14 @@
 import React from 'react'
 import {
   BrandName,
-  Circle, HambugerIcon,
+  Circle,
+  HambugerIcon,
   HambugerIconWrapper,
   Logo,
   LogoWrapper,
   SocialIcon,
   SocialIconWrapper,
-  Wrapper
+  Wrapper,
 } from './styles'
 
 export const StickyMenu = () => {
@@ -19,7 +20,7 @@ export const StickyMenu = () => {
           <BrandName src="/gameloft.png" alt="gl-text" />
         </LogoWrapper>
         <HambugerIconWrapper>
-          <HambugerIcon name="bars" size="big" />
+          <HambugerIcon src="/images/HambugerIcon.png" alt="Hambuger Icon" />
         </HambugerIconWrapper>
       </Wrapper>
 

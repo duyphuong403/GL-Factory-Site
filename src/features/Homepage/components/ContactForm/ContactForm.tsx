@@ -1,6 +1,8 @@
 import React from 'react'
 import { Grid, GridColumn } from 'semantic-ui-react'
+import Slide from 'react-reveal/Slide'
 import {
+  ContactGridRow,
   DecoratorImageColumn,
   FormButton,
   FormButtonWrapper,
@@ -13,25 +15,31 @@ import {
   FormWrapper,
   PolicyInput,
   PolicyLabel,
-  Wrapper
+  Wrapper,
 } from './styles'
 
 export const ContactForm = () => {
   return (
     <Wrapper>
-      <Grid.Row>
-        <DecoratorImageColumn largeScreen={8} computer={8}>
-          <img src="/images/Minion Grey2@1X.png" alt="Minion" />
+      <ContactGridRow>
+        <DecoratorImageColumn>
+          <Slide bottom>
+            <img src="/images/Minion-Grey2@1X.png" alt="Minion" />
+          </Slide>
         </DecoratorImageColumn>
 
-        <FormColumn largeScreen={8} computer={8} tablet={16} mobile={16}>
+        <FormColumn>
           <FormWrapper size="small">
             <FormField>
-              <FormTitleText>Stay in the Know!</FormTitleText>
-              <FormSubTitleText>
-                Don't get left behind!
-                <br /> Subscribe to our newsletters today!
-              </FormSubTitleText>
+              <Slide bottom>
+                <FormTitleText>Stay in the Know!</FormTitleText>
+              </Slide>
+              <Slide bottom>
+                <FormSubTitleText>
+                  Don't get left behind!
+                  <br /> Subscribe to our newsletters today!
+                </FormSubTitleText>
+              </Slide>
             </FormField>
 
             <FormField control={FormInput} placeholder="Name" />
@@ -77,7 +85,7 @@ export const ContactForm = () => {
             </FormField>
           </FormWrapper>
         </FormColumn>
-      </Grid.Row>
+      </ContactGridRow>
     </Wrapper>
   )
 }

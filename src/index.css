@@ -8,6 +8,11 @@
   src: url(fonts/Montserrat-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url(fonts/Montserrat-Light.ttf);
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat Regular';
@@ -17,4 +22,8 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }

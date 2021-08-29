@@ -5,29 +5,44 @@ import { Colors } from '../../../../utils'
 export const Wrapper = styled(Grid)`
   margin: 0 !important;
   height: 100vh;
-  background-color: #d8edff;
-  min-height: 1080px;
-
+  background-color: #ebf6ff;
+  display: flex;
+  justify-content: center;
+  min-height: 900px;
+  
   @media only screen and (max-width: 375px) {
     min-height: 665px;
     margin-top: 208px !important;
   }
 `
 
-export const DecoratorImageColumn = styled(Grid.Column)`
-  display: flex !important;
+export const ContactGridRow = styled(Grid.Row)`
+  max-width: 1028px;
+  width: 100%;
+  padding: 1rem !important;
+`
+
+export const DecoratorImageColumn = styled.div`
+  display: flex;
   align-items: center;
-  justify-content: center;
+  width: 50%;
+
+  @media only screen and (max-width: 1024px) {
+    justify-content: center;
+  }
 
   @media only screen and (max-width: 992px) {
     display: none !important;
   }
 `
 
-export const FormColumn = styled(Grid.Column)`
-  display: flex !important;
-  /* justify-content: center; */
-  /* margin-left: auto; */
+export const FormColumn = styled.div`
+  display: flex;
+  width: 50%;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `
 
 export const FormWrapper = styled(Form)`
@@ -35,19 +50,15 @@ export const FormWrapper = styled(Form)`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
 
-  @media only screen and (max-width: 992px) {
-    align-items: center;
-  }
-
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     align-items: center;
   }
 `
 
 export const FormField = styled(Form.Field)`
-  width: 40%;
+  width: 49%;
 
   @media only screen and (max-width: 768px) {
     width: 80%;
@@ -115,8 +126,8 @@ export const FormButtonWrapper = styled.div`
 
 export const FormButton = styled.button`
   cursor: pointer;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: ${Colors.PRIMARY_COLOR};
+  border: 1px solid ${Colors.PRIMARY_COLOR};
   border-radius: 0.28571429rem;
   background-color: transparent;
   line-height: 1em;
@@ -130,5 +141,6 @@ export const FormButton = styled.button`
   &:hover {
     background-color: ${Colors.PRIMARY_COLOR};
     border: 1px solid ${Colors.PRIMARY_COLOR};
+    color: #ffffff;
   }
 `
