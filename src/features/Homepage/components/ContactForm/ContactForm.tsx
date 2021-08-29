@@ -24,7 +24,7 @@ export const ContactForm = () => {
       <ContactGridRow>
         <DecoratorImageColumn>
           <Slide bottom>
-            <img src="/images/Minion-Grey2@1X.png" alt="Minion" />
+            <img src="images/Minion-Grey2@1X.png" alt="Minion" />
           </Slide>
         </DecoratorImageColumn>
 

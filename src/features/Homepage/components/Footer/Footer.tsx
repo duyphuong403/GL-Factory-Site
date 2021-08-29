@@ -44,10 +44,10 @@ export const Footer = () => {
         <FollowUsWrapper>
           <FollowUsText>Follow Us</FollowUsText>
           <div>
-            <SocialIcon src="/images/facebook.png" alt="Facebook" />
-            <SocialIcon src="/images/linkedin.png" alt="Linkedin" />
-            <SocialIcon src="/images/twitter.png" alt="Twitter" />
-            <SocialIcon src="/images/youtube.png" alt="Youtube" />
+            <SocialIcon src="images/facebook.png" alt="Facebook" />
+            <SocialIcon src="images/linkedin.png" alt="Linkedin" />
+            <SocialIcon src="images/twitter.png" alt="Twitter" />
+            <SocialIcon src="images/youtube.png" alt="Youtube" />
           </div>
         </FollowUsWrapper>
 
@@ -55,23 +55,23 @@ export const Footer = () => {
           <LogoLinkPolicyWrapper2>
             <LogoNLinkWrapper>
               <LogoWrapper>
-                <LogoImage src="/images/Gameloft_Logo_Flat_White_Line@2x.png" alt="GL Logo" />
+                <LogoImage src="images/Gameloft_Logo_Flat_White_Line@2x.png" alt="GL Logo" />
               </LogoWrapper>
               <SocialIconWrapper>
                 <FollowUSText25>Follow Us</FollowUSText25>
 
                 <SocialIconWrapper2>
                   <IconWrapper href="#">
-                    <SocialIcon src="/images/facebook-white-square.png" alt="Facebook" />
+                    <SocialIcon src="images/facebook-white-square.png" alt="Facebook" />
                   </IconWrapper>
                   <IconWrapper href="#">
-                    <SocialIcon src="/images/linkedin-white-square.png" alt="Linkedin" />
+                    <SocialIcon src="images/linkedin-white-square.png" alt="Linkedin" />
                   </IconWrapper>
                   <IconWrapper href="#">
-                    <SocialIcon src="/images/twitter-white-square.png" alt="Twitter" />
+                    <SocialIcon src="images/twitter-white-square.png" alt="Twitter" />
                   </IconWrapper>
                   <IconWrapper href="#">
-                    <SocialIcon src="/images/youtube-white-square.png" alt="Youtube" />
+                    <SocialIcon src="images/youtube-white-square.png" alt="Youtube" />
                   </IconWrapper>
                 </SocialIconWrapper2>
 

@@ -44,7 +44,7 @@ export const CardItem = () => {
 
         <WrapperVisible className="wrapperVisible">
           <ProductImageWrapper>
-            <ProductImage src="/images/product-image.png" alt="product" />
+            <ProductImage src="images/product-image.png" alt="product" />
           </ProductImageWrapper>
           <ShortTitleText className="shortTitle">Short Title Here</ShortTitleText>
         </WrapperVisible>

@@ -25,7 +25,7 @@ export const HotspotBanner = () => {
     <Wrapper>
       <ProductImageWrapper>
         <Grid.Column textAlign="center" verticalAlign="middle">
-          <ImageProduct src="/images/product-image.png" alt="Product" />
+          <ImageProduct src="images/product-image.png" alt="Product" />
         </Grid.Column>
       </ProductImageWrapper>
 
@@ -66,13 +66,13 @@ export const HotspotBanner = () => {
               verticalAlign="middle"
             >
               <StoreLink href="#">
-                <StoreImage src="/images/NintendoStore.png" alt="Nintendo Store" />
+                <StoreImage src="images/NintendoStore.png" alt="Nintendo Store" />
               </StoreLink>
               <StoreLink href="#">
-                <StoreImage src="/images/MicrosoftStore.png" alt="Microsoft Store" />
+                <StoreImage src="images/MicrosoftStore.png" alt="Microsoft Store" />
               </StoreLink>
               <StoreLink href="#">
-                <StoreImage src="/images/SteamStore.png" alt="Steam Store" />
+                <StoreImage src="images/SteamStore.png" alt="Steam Store" />
               </StoreLink>
             </StoreGridColumn>
           </StoreGridRow>

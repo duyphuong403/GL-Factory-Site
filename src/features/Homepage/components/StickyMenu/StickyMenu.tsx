@@ -20,7 +20,7 @@ export const StickyMenu = () => {
           <BrandName src="/gameloft.png" alt="gl-text" />
         </LogoWrapper>
         <HambugerIconWrapper>
-          <HambugerIcon src="/images/HambugerIcon.png" alt="Hambuger Icon" />
+          <HambugerIcon src="images/HambugerIcon.png" alt="Hambuger Icon" />
         </HambugerIconWrapper>
       </Wrapper>
 
