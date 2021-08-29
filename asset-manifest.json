@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GL-Factory-Site/static/css/main.3a4172e5.chunk.css",
+    "main.js": "/GL-Factory-Site/static/js/main.36805432.chunk.js",
+    "main.js.map": "/GL-Factory-Site/static/js/main.36805432.chunk.js.map",
+    "runtime-main.js": "/GL-Factory-Site/static/js/runtime-main.f5fe62f8.js",
+    "runtime-main.js.map": "/GL-Factory-Site/static/js/runtime-main.f5fe62f8.js.map",
+    "static/css/2.e741aceb.chunk.css": "/GL-Factory-Site/static/css/2.e741aceb.chunk.css",
+    "static/js/2.f73274d3.chunk.js": "/GL-Factory-Site/static/js/2.f73274d3.chunk.js",
+    "static/js/2.f73274d3.chunk.js.map": "/GL-Factory-Site/static/js/2.f73274d3.chunk.js.map",
+    "static/js/3.b75f7a72.chunk.js": "/GL-Factory-Site/static/js/3.b75f7a72.chunk.js",
+    "static/js/3.b75f7a72.chunk.js.map": "/GL-Factory-Site/static/js/3.b75f7a72.chunk.js.map",
+    "index.html": "/GL-Factory-Site/index.html",
+    "static/css/2.e741aceb.chunk.css.map": "/GL-Factory-Site/static/css/2.e741aceb.chunk.css.map",
+    "static/css/main.3a4172e5.chunk.css.map": "/GL-Factory-Site/static/css/main.3a4172e5.chunk.css.map",
+    "static/js/2.f73274d3.chunk.js.LICENSE.txt": "/GL-Factory-Site/static/js/2.f73274d3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/GL-Factory-Site/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/Rectangle1833.da95d566.jpg": "/GL-Factory-Site/static/media/Rectangle1833.da95d566.jpg",
+    "static/media/semantic.min.css": "/GL-Factory-Site/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5fe62f8.js",
+    "static/css/2.e741aceb.chunk.css",
+    "static/js/2.f73274d3.chunk.js",
+    "static/css/main.3a4172e5.chunk.css",
+    "static/js/main.36805432.chunk.js"
+  ]
+}
