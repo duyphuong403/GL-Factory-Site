@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GL-Factory-Site/static/css/main.3a4172e5.chunk.css",
-    "main.js": "/GL-Factory-Site/static/js/main.2b487228.chunk.js",
-    "main.js.map": "/GL-Factory-Site/static/js/main.2b487228.chunk.js.map",
+    "main.js": "/GL-Factory-Site/static/js/main.251f8532.chunk.js",
+    "main.js.map": "/GL-Factory-Site/static/js/main.251f8532.chunk.js.map",
     "runtime-main.js": "/GL-Factory-Site/static/js/runtime-main.f5fe62f8.js",
     "runtime-main.js.map": "/GL-Factory-Site/static/js/runtime-main.f5fe62f8.js.map",
     "static/css/2.e741aceb.chunk.css": "/GL-Factory-Site/static/css/2.e741aceb.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.e741aceb.chunk.css",
     "static/js/2.f73274d3.chunk.js",
     "static/css/main.3a4172e5.chunk.css",
-    "static/js/main.2b487228.chunk.js"
+    "static/js/main.251f8532.chunk.js"
   ]
 }
